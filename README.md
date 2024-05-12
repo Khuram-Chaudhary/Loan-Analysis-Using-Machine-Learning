@@ -6,7 +6,7 @@ This project aims to use machine learning to explore the effectiveness of differ
 During the data cleaning phase, several steps were undertaken. Firstly, deduplication was performed to eradicate duplicates and enhance model performance by reducing bias. Additionally, outliers were detected and eliminated from critical numeric features such as age, duration, campaign, and number of employed to fortify the models' robustness. Furthermore, data imbalance was addressed by converting non-numeric data into numeric formats and handling missing values to achieve a balanced distribution across the dataset.
 
 # Learning Methods
-Python libraries were extensively utilized for both data preprocessing and model training. This involved leveraging pandas, numpy, matplotlib, seaborn, and scikit-learn for efficient data handling and visualization. Moreover, a diverse array of algorithms was employed to analyze the data from multiple angles and capture potential patterns effectively.
+Python libraries were extensively utilized for both data preprocessing and model training. This involved leveraging Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn for efficient data handling and visualization. Moreover, a diverse array of algorithms was employed to analyze the data from multiple angles and capture potential patterns effectively.
 
 # Model Evaluation
 Random Forest emerged as the top performer, showcasing the highest F1 score, recall rate, and AUC (Area Under the Curve). Naive Bayes and decision tree models followed closely, albeit with slightly lower scores, particularly evident in decision tree's comparatively lower AUC. Notably, Random Forest boasted the lowest error rate and marginally outperformed others in precision and accuracy metrics.
